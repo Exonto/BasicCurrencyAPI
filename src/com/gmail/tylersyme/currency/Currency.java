@@ -307,7 +307,8 @@ public final class Currency
 	
 	/**
 	 * Returns the negative value of this {@code Currency}.<br>
-	 * If this {@code Currency} is already, negative no change is made.
+	 * If this {@code Currency} is already, negative no change is made
+	 * and the original {@code Currency} is returned.
 	 */
 	public Currency toDebt()
 	{
